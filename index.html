@@ -15,39 +15,41 @@
       <header class="header ">
         <nav>
             <div class="op">
-                
-                <div id="mySidenav" class="sidenav" width="0px">
-                  <a href="#" class="closebtn" onclick="closeNav()">×</a>
-                  <div class="ul-div2">
-                    
-                        <a href="#about-us" class="a2">Փառատոնի մասին</a>
-                        <a href="#aj" class="a2">Հովանավորներ</a>
-                        <a href="#contact" class="a2">Կապ</a>
-                        
-                    
+                <div class="op-in"> <!-- er divi mej dri-->
+                    <div id="mySidenav" class="sidenav" width="0px">
+                        <a href="#" class="closebtn" onclick="closeNav()">×</a>
+                        <div class="ul-div2">
+                          
+                              <a href="#about-us" class="a2" onclick="closeNav()">Փառատոնի մասին</a>
+                              <a href="#aj" class="a2" onclick="closeNav()">Հովանավորներ</a>
+                              <a href="#contact" class="a2" onclick="closeNav()">Կապ</a>
+                              
+                          
+                      </div>
+                      <div  class="select select2">
+                          <div class="def-opt" >
+                              <button onclick="openLeng()"  class="a2 len">
+                                  Հայ
+                              </button>
+                              
+                          </div>
+                          <div class="opts opts2" id="opts2">
+                              <div class="opt2" onclick="closeLeng()">
+                                 <a href="index.html">Հայ</a> 
+                              </div>
+                              <div class="opt2" onclick="closeLeng()">
+                                  <a href="indexeng.html">Eng</a>
+                              </div>
+      
+                          </div>
+                          
+                      </div>
+                  </div>
                 </div>
-                <div  class="select select2">
-                    <div class="def-opt" >
-                        <button onclick="openLeng()"  class="a2 len">
-                            Հայ
-                        </button>
-                        
-                    </div>
-                    <div class="opts opts2" id="opts2">
-                        <div class="opt2" onclick="closeLeng()">
-                           <a href="index.html">Հայ</a> 
-                        </div>
-                        <div class="opt2" onclick="closeLeng()">
-                            <a href="indexeng.html">Eng</a>
-                        </div>
-
-                    </div>
-                    
-                </div>
-            </div>
+  
                 
-                <div class="nav-op">
-                   <button class="nav-logo" onclick="openNav()">☰</button>
+                <div class="nav-op" id="log">
+                   <button class="nav-logo"  onclick="openNav()">☰</button>
                 </div>
             </div>
             <div class="nav-links contaniar">
@@ -80,17 +82,17 @@
             </div>
         </nav>
         <div class="header-big">
-            <div class="header-div1">
+            <div class="header-div1 ">
                 <div class="header-img">
                     <img src="logo.png" alt="">
-                </div>
-                <div class="header-h2">
+                </div> 
+                <div class="header-h2 contaniar">  <!-- er -->
                     <h2>Փառատոնին ծիրանաշատ,</h2>
                     <h2>Վեր կա՛ց, արի՛ Արտաշատ:</h2>
                 </div>
             </div>
             <div class="header-div2">
-                <div class="header-div2-h1">
+                <div class="header-div2-h1 ">
                     <h1>Ծիրանաշատ</h1>
                     <h1> Արտաշատ</h1>
                 </div>
@@ -111,7 +113,7 @@
                     </div>
                     <div class="sec1-p">
                         
-                        <p>Ծիրանն իր ուրույն տեղն ունի հայկական մշակույթում և աշխարհում ամենահայտնի հայկական միրգն է։<br> &nbsp;&nbsp;&nbsp;&nbsp;«Ծիրանաշատ Արտաշատ» փառատոնը կազմակերպվում է USAID-ի կողմից ֆինանսավորվող «ԿԱՏԱՐԻՆԵ համայնք կամրջողներ» ծրագրի մասնակից կանանց կողմից։ Միավորելով Հայաստանի ամենամեծ խոշորացված համայնքի՝ Արտաշատի բոլոր 38 բնակավայրերը՝ «Ծիրանաշատ Արտաշատ» փառատոնը նվիրված է Արարատյան դաշտի արևահամ ծիրանին:
+                        <p>&nbsp;&nbsp;&nbsp;&nbsp;Ծիրանն իր ուրույն տեղն ունի հայկական մշակույթում և աշխարհում ամենահայտնի հայկական միրգն է։<br> &nbsp;&nbsp;&nbsp;&nbsp;«Ծիրանաշատ Արտաշատ» փառատոնը կազմակերպվում է USAID-ի կողմից ֆինանսավորվող «ԿԱՏԱՐԻՆԵ համայնք կամրջողներ» ծրագրի մասնակից կանանց կողմից։ Միավորելով Հայաստանի ամենամեծ խոշորացված համայնքի՝ Արտաշատի բոլոր 38 բնակավայրերը՝ «Ծիրանաշատ Արտաշատ» փառատոնը նվիրված է Արարատյան դաշտի արևահամ ծիրանին:
                             Փառատոնն առաջարկում է միջոցառումների լայն շրջանակ: 
                             <br>
                             Միջոցառումներ`

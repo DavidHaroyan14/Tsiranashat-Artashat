@@ -1,7 +1,7 @@
 const sprite = document.getElementById("sprite");
 
 const costumes = [
-    "Միացիր մեզ Հունիսի 22-ին <br>ժամը 11:00 - 21:00 ",
+    "Միացիր մեզ Հունիսի 22-ին <br>ժամը 11:00-21:00 ",
     "Հասցե՝ Արարատի մարզ, <br> Դվին բնակավայր ",
 ];
 let currentCostume = 1;
@@ -17,7 +17,7 @@ setInterval(changeCostume, 2000);
 const sprite2 = document.getElementById("sprite2");
 
 const costumes2 = [
-    "Join Us At June 22! <br> 11:00am - 09:00pm ",
+    "Join Us At June 22! <br> 11:00am-09:00pm ",
     "Location: Dvin Village, <br> Artashat community ",
 ];
 let currentCostume2 = 1;
@@ -122,14 +122,18 @@ closeBtn.addEventListener("click", function () {
 
 
 function openNav() {
-    document.getElementById("mySidenav").style.width = "270px";
-    document.getElementById("main").style.marginLeft = "270px";
+    document.getElementById("mySidenav").style.width = "100%";
+    document.getElementById("main").style.marginRight = "-270px";
+    document.getElementById("log").style.width = "0%";
+
 }
 
 function closeNav() {
     document.getElementById("mySidenav").style.width = "0";
     // document.getElementById("mySidenav").style.height = "0";
-    document.getElementById("main").style.marginLeft = "0";
+    document.getElementById("main").style.marginRight = "0";
+    document.getElementById("log").style.width = "100%";
+
 }
 
 function openLeng() {
